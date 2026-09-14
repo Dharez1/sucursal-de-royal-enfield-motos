@@ -2,7 +2,34 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #212529;
+  font-family: "Roboto Condensed", sans-serif;
 }
+
 main {
   flex-grow: 1;
+}
+
+header .link-nav {
+  font-weight: bold;
+  color: #fff;
+}
+
+header .link-nav:hover {
+  color: #da291c;
+}
+
+header .btn-login {
+  background-color: #212529;
+  color: #fff;
+}
+
+header .btn-register {
+  background-color: #da291c;
+  color: #fff;
+}
+header .btn-register:hover,
+header .btn-login:hover {
+  background-color: #fff;
+  color: #000;
 }

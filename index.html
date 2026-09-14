@@ -10,6 +10,12 @@
       href="/img/logo-favicon.png"
       type="image/x-icon"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,7 +25,56 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-black">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">
+            <img
+              src="/img/royal-enfield-logo.png"
+              alt="logo de royal enfield"
+              class="img-fluid"
+              width="200"
+            />
+          </a>
+          <button
+            class="navbar-toggler shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center">
+              <li class="nav-item mx-4">
+                <a class="nav-link link-nav" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link link-nav" href="/pages/product-gallery.html">
+                  Productos
+                </a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link link-nav" href="/pages/contact.html">
+                  Contacto
+                </a>
+              </li>
+            </ul>
+            <div class="d-grid gap-2 d-lg-flex justify-content-lg-end">
+              <button class="btn btn-login me-lg-2" type="button">
+                Iniciar sesion
+              </button>
+              <a class="btn btn-register" href="/pages/sign-up.html">
+                Registrarse
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <h1>Hola mundo</h1>
     </main>
