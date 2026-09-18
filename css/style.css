@@ -40,6 +40,20 @@ header .btn-login:hover {
   color: #000;
 }
 
+#carousel img {
+  max-height: 870px;
+  object-fit: cover;
+}
+
+#carousel .btn-carousel {
+  background-color: #da291c;
+  color: #fff;
+}
+#carousel .btn-carousel:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 footer .logoFooter {
   width: 150px;
   filter: grayscale(100%) opacity(25%);
