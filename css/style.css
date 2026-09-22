@@ -54,6 +54,18 @@ header .btn-login:hover {
   color: #000;
 }
 
+.card-bike {
+  overflow: hidden;
+}
+
+#featured-bike .img-bike {
+  transition: 1s;
+}
+#featured-bike .img-bike:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 footer .logoFooter {
   width: 150px;
   filter: grayscale(100%) opacity(25%);
