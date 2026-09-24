@@ -66,6 +66,16 @@ header .btn-login:hover {
   transition: 1s;
 }
 
+.btn-accesories {
+  background-color: #da291c;
+  color: #fff;
+}
+.btn-accesories:hover,
+.btn-accesories:active {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
 footer .logoFooter {
   width: 150px;
   filter: grayscale(100%) opacity(25%);
@@ -102,4 +112,11 @@ footer .copy-text {
   font-size: 14px;
   color: #ffffffa3;
   border-top: 3px solid #333333;
+}
+
+@media (max-width: 425px) {
+  .img-accesories {
+    height: 230px;
+    object-fit: cover;
+  }
 }
