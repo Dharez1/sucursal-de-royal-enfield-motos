@@ -76,6 +76,15 @@ header .btn-login:hover {
   color: #000 !important;
 }
 
+.benefit-card {
+  transition: 1s;
+}
+
+.benefit-card:hover {
+  transition: 1s;
+  box-shadow: 10px 10px 15px -3px rgba(255, 255, 255, 0.15);
+}
+
 footer .logoFooter {
   width: 150px;
   filter: grayscale(100%) opacity(25%);
