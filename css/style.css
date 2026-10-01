@@ -58,12 +58,12 @@ header .btn-login:hover {
   overflow: hidden;
 }
 
-#featured-bike .img-bike {
-  transition: 1s;
+.img-bike {
+  transition: transform 0.3s ease-in-out;
 }
-#featured-bike .img-bike:hover {
-  transform: scale(1.1);
-  transition: 1s;
+
+.card-bike:hover .img-bike{
+  transform: scale(1.05);
 }
 
 .btn-accesories {
