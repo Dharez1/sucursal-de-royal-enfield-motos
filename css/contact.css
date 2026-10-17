@@ -23,3 +23,18 @@
   color: #000 !important;
   box-shadow: 10px 10px 15px -3px rgba(255, 255, 255, 0.15);
 }
+
+.others-contact a {
+  color: #6c757d;
+  transition: 0.5s;
+}
+.others-contact a:hover {
+  color: #fff;
+}
+
+.others-contact-card {
+  transition: 1s;
+}
+.others-contact-card:hover {
+  box-shadow: 10px 10px 15px -3px rgba(255, 255, 255, 0.15);
+}
