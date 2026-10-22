@@ -1,0 +1,22 @@
+.hero-banner {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/banner-about-us.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 95vh;
+  padding: 3rem 0;
+}
+
+.dev-dev {
+  width: 18rem;
+  box-shadow: 10px 10px 15px -3px rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 600px) {
+  .hero-banner {
+    min-height: 50vh;
+  }
+}
