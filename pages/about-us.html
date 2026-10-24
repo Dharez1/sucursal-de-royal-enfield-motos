@@ -51,15 +51,22 @@
                 <a class="nav-link link-nav" href="/index.html">Inicio</a>
               </li>
               <li class="nav-item mx-4">
-                <a class="nav-link link-nav" href="/pages/product-gallery.html"> Productos </a>
+                <a class="nav-link link-nav" href="/pages/product-gallery.html">Productos </a>
               </li>
               <li class="nav-item mx-4">
-                <a class="nav-link link-nav" href="/pages/contact.html"> Contacto </a>
+                <a class="nav-link link-nav" href="/pages/contact.html">Contacto</a>
               </li>
             </ul>
             <div class="d-grid gap-2 d-lg-flex justify-content-lg-end">
-              <button class="btn btn-login me-lg-2" type="button">Iniciar sesion</button>
-              <a class="btn btn-register" href="/pages/sign-up.html"> Registrarse </a>
+              <button
+                class="btn btn-login me-lg-2"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#modal-login"
+              >
+                Iniciar sesion
+              </button>
+              <a class="btn btn-register" href="/pages/sign-up.html">Registrarse </a>
             </div>
           </div>
         </div>
@@ -154,6 +161,81 @@
         </div>
       </div>
     </footer>
+
+    <div
+      class="modal fade"
+      id="modal-login"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-bs-theme="dark"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar sesion</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="/pages/error404.html" method="get" class="row g-3 form-login">
+              <div class="col-12">
+                <label for="login-email" class="form-label">Correo electronico</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="login-email"
+                  required
+                  minlength="5"
+                  maxlength="85"
+                />
+              </div>
+              <div class="col-12">
+                <label for="login-password" class="form-label">Contraseña</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="login-password"
+                  required
+                  minlength="6"
+                />
+              </div>
+              <div class="col-12">
+                <a class="text-pass-forget" href="/pages/error404.html">
+                  ¿Olvidaste la contraseña?
+                </a>
+              </div>
+              <div class="col-12 d-grid gap-2 mx-auto">
+                <button class="btn btn-login" type="submit">Iniciar sesion</button>
+                <a class="text-center text-register" href="/pages/sign-up.html">
+                  ¿No tienes una cuenta? Regístrate
+                </a>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <div class="d-grid d-md-flex gap-3 col-12 mx-auto justify-content-md-center">
+              <a href="https://www.google.com/" class="btn btn-outline-secondary btn-signup-google">
+                Iniciar con google
+                <i class="fa-brands fa-google"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                class="btn btn-outline-secondary btn-signup-facebook"
+              >
+                Iniciar con facebook
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
