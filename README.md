@@ -7,7 +7,7 @@
 Proyecto para practicar bootstrap 5 y git, sobre una sucursal ficticia de Royal enfield motos
 
 ## Demo de la pagina
-Mira la demo del proyecto [aqui](https://github.com/Dharez1/sucursal-de-royal-enfield-motos)
+Mira la demo del proyecto [aqui](https://sucursal-de-royal-enfield-motos.vercel.app/)
 
 <h2>
   Herramientas utilizadas
@@ -31,4 +31,4 @@ git clone https://github.com/Dharez1/sucursal-de-royal-enfield-motos.git
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" alt="Man Technologist" width="40" height="40" />
   </h2>
   
-  - Dharez
+  - [Dharez](https://github.com/Dharez1)
