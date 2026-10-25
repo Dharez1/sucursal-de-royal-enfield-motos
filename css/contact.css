@@ -1,40 +1,30 @@
-.container-contact-form {
-  box-shadow: 10px 10px 15px -3px rgba(255, 255, 255, 0.15);
-}
-
 .form-contact input:focus,
 .form-contact textarea:focus {
   border-color: #fff;
   box-shadow: 0 0 0 0.25rem rgba(247, 247, 248, 0.25);
+}
+.form-contact .check-form:checked {
+  background-color: #da291c;
+  border-color: #da291c;
 }
 
 .form-contact textarea {
   resize: none;
 }
 
-.btn-form-contact {
+.btn-contact {
   background-color: #da291c;
   color: #fff;
 }
 
-.btn-form-contact:hover,
-.btn-form-contact:active {
+.btn-contact:hover,
+.btn-contact:active {
   background-color: #fff !important;
   color: #000 !important;
-  box-shadow: 10px 10px 15px -3px rgba(255, 255, 255, 0.15);
 }
 
-.others-contact a {
-  color: #6c757d;
-  transition: 0.5s;
-}
-.others-contact a:hover {
-  color: #fff;
-}
-
-.others-contact-card {
-  transition: 1s;
-}
-.others-contact-card:hover {
-  box-shadow: 10px 10px 15px -3px rgba(255, 255, 255, 0.15);
+.btn-wsp:hover,
+.btn-wsp:active {
+  background-color: #fff !important;
+  color: #000 !important;
 }
