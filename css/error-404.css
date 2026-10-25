@@ -1,0 +1,21 @@
+.error-container {
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center;
+}
+
+.img-error {
+  width: 600px;
+}
+
+.btn-return {
+  background-color: #da291c;
+  color: #fff;
+}
+
+.btn-return:hover,
+.btn-return:active {
+  background-color: #fff !important;
+  color: #000 !important;
+  box-shadow: 10px 10px 15px -3px rgba(255, 255, 255, 0.15);
+}

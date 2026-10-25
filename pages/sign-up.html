@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Royal Enfield - Registrarse</title>
+    <meta name="author" content="Mauro Romo" />
+    <link rel="shortcut icon" href="/img/logo-favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/sign-up.css" />
+    <script src="https://kit.fontawesome.com/e23bd1dc39.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-black">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">
+            <img
+              src="/img/royal-enfield-logo.png"
+              alt="logo de royal enfield"
+              class="img-fluid"
+              width="200"
+            />
+          </a>
+          <button
+            class="navbar-toggler shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center">
+              <li class="nav-item mx-4">
+                <a class="nav-link link-nav" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link link-nav" href="/pages/product-gallery.html">Productos</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link link-nav" href="/pages/contact.html">Contacto</a>
+              </li>
+            </ul>
+            <div class="d-grid gap-2 d-lg-flex justify-content-lg-end">
+              <button
+                class="btn btn-login me-lg-2"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#modal-login"
+              >
+                Iniciar sesion
+              </button>
+              <a class="btn btn-register" href="/pages/sign-up.html">Registrarse</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container my-5">
+        <h4 class="text-center text-white mb-4">Crea una cuenta en royal enfield</h4>
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-7 bg-black">
+            <form
+              action="/pages/error404.html"
+              method="get"
+              class="row g-3 p-3"
+              id="form-signup"
+              data-bs-theme="dark"
+            >
+              <div class="col-12 col-md-6">
+                <label for="signup-name" class="form-label text-white">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="signup-name"
+                  required
+                  minlength="2"
+                  maxlength="30"
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="signup-lastname" class="form-label text-white">Apellido</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="signup-lastname"
+                  required
+                  minlength="2"
+                  maxlength="30"
+                />
+              </div>
+              <div class="col-12">
+                <label for="signup-email" class="form-label text-white">Correo electrónico</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="signup-email"
+                  required
+                  minlength="5"
+                  maxlength="85"
+                />
+              </div>
+              <div class="col-12">
+                <label for="signup-password" class="form-label text-white">Contraseña</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="signup-password"
+                  required
+                  minlength="6"
+                />
+              </div>
+              <div class="col-12">
+                <label for="signup-password-confirmn" class="form-label text-white">
+                  Confirmar contraseña
+                </label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="signup-password-confirmn"
+                  required
+                  minlength="6"
+                />
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="signup-termns"
+                    required
+                  />
+                  <label class="form-check-label text-secondary" for="signup-termns">
+                    Acepto
+                    <a href="/pages/error404.html" class="text-white text-decoration-none">
+                      los terminos y condiciones.
+                    </a>
+                  </label>
+                </div>
+              </div>
+              <div class="d-grid gap-2 col-12 col-md-6 mx-auto">
+                <button type="submit" class="btn btn-sign-up">Registrarse</button>
+                <a href="/pages/error404.html" class="text-center mt-3 btn-login-signup">
+                  ¿Tienes una cuenta? Iniciar sesión
+                </a>
+              </div>
+              <div class="col-12">
+                <hr class="text-white" />
+                <div
+                  class="d-grid d-md-flex gap-3 col-12 col-md-10 mx-auto justify-content-md-center"
+                >
+                  <a
+                    href="https://www.google.com/"
+                    class="btn btn-outline-secondary btn-signup-google"
+                  >
+                    Registrarse con google
+                    <i class="fa-brands fa-google"></i>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/"
+                    class="btn btn-outline-secondary btn-signup-facebook"
+                  >
+                    Registrarse con facebook
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-black">
+      <div class="container text-center">
+        <div class="row p-3">
+          <div class="col-12 my-3 col-lg-4">
+            <img
+              src="/img/logo-favicon.png"
+              alt="logo alternativo de royal enfield"
+              class="logoFooter"
+            />
+          </div>
+          <div class="col-12 my-3 col-lg-4">
+            <h5 class="text-white">Redes sociales</h5>
+            <div class="d-block mt-3">
+              <a
+                href="https://www.facebook.com/RoyalEnfieldAG"
+                target="_blank"
+                class="btn btn-secondary circle-icon m-2"
+              >
+                <i class="fa-brands fa-facebook fa-xl"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/royalenfieldar"
+                target="_blank"
+                class="btn btn-secondary circle-icon m-2"
+              >
+                <i class="fa-brands fa-instagram fa-xl"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/@royalenfieldargentina5"
+                target="_blank"
+                class="btn btn-secondary circle-icon m-2"
+              >
+                <i class="fa-brands fa-youtube fa-xl"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 my-3 col-lg-4">
+            <h5 class="text-white">Mas informacion</h5>
+            <nav class="nav flex-column">
+              <a class="nav-link info-link" href="/pages/error404.html">Cookies</a>
+              <a class="nav-link info-link" href="/pages/about-us.html">Sobre nosotros</a>
+              <a class="nav-link info-link" href="/pages/error404.html">Términos y condiciones</a>
+            </nav>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h6 class="text-center py-3 copy-text">
+              Todos los derechos reservados &copy; Royal Enfield 2026
+            </h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      class="modal fade"
+      id="modal-login"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-bs-theme="dark"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar sesion</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="/pages/error404.html" method="get" class="row g-3 form-login">
+              <div class="col-12">
+                <label for="login-email" class="form-label">Correo electronico</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="login-email"
+                  required
+                  minlength="5"
+                  maxlength="85"
+                />
+              </div>
+              <div class="col-12">
+                <label for="login-password" class="form-label">Contraseña</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="login-password"
+                  required
+                  minlength="6"
+                />
+              </div>
+              <div class="col-12">
+                <a class="text-pass-forget" href="/pages/error404.html">
+                  ¿Olvidaste la contraseña?
+                </a>
+              </div>
+              <div class="col-12 d-grid gap-2 mx-auto">
+                <button class="btn btn-login" type="submit">Iniciar sesion</button>
+                <a class="text-center text-register" href="/pages/sign-up.html">
+                  ¿No tienes una cuenta? Regístrate
+                </a>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <div class="d-grid d-md-flex gap-3 col-12 mx-auto justify-content-md-center">
+              <a href="https://www.google.com/" class="btn btn-outline-secondary btn-signup-google">
+                Iniciar con google
+                <i class="fa-brands fa-google"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                class="btn btn-outline-secondary btn-signup-facebook"
+              >
+                Iniciar con facebook
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

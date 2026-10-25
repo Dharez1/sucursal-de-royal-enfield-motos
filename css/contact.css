@@ -1,0 +1,30 @@
+.form-contact input:focus,
+.form-contact textarea:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(247, 247, 248, 0.25);
+}
+.form-contact .check-form:checked {
+  background-color: #da291c;
+  border-color: #da291c;
+}
+
+.form-contact textarea {
+  resize: none;
+}
+
+.btn-contact {
+  background-color: #da291c;
+  color: #fff;
+}
+
+.btn-contact:hover,
+.btn-contact:active {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.btn-wsp:hover,
+.btn-wsp:active {
+  background-color: #fff !important;
+  color: #000 !important;
+}
